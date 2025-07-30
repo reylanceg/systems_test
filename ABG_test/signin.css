@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 350px;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1.5px solid #eceded;
+}
+
+.header-container {
+  margin-bottom: 30px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1.5px solid #eceded;
+  outline: none;
+}
+
+.remember {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.remember input {
+  margin-right: 3px;
+  position: relative;
+  top: 1px;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #bdbbbb;
+  text-align: center;
+  border-bottom: 1.2px solid #bdbbbb;
+  line-height: 0.1em;
+  margin: 25px 0;
+}
+
+h4 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.buttons .sign-in {
+  background-color: #ffc20e;
+  color: white;
+}
+
+.buttons .sign-in:hover {
+  background-color: #ffd84d;
+  font-weight: bold;
+}
+
+.buttons .sign-up {
+  border: 1px solid #ffc20e;
+  color: #ffc20e;
+  background: #fff;
+}
+
+.buttons .sign-up:hover {
+  background-color: #ffc20e;
+  color: white;
+  font-weight: bold;
+}
+
+.have-account {
+  font-size: 10px;
+  text-align: left;
+}
+
+input[type="checkbox"] {
+  accent-color: black;
+}
