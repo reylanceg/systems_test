@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 350px 210px;
+}
+
+.background-1 {
+  grid-column: 1 / -1;
+  grid-row: 1/2;
+  background-image: url(img/background-1-cropped.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-2 {
+  background-image: url(img/background-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background-3 {
+  background-image: url(img/background-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background-4 {
+  background-image: url(img/background-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-container {
+  padding: 18px;
+}
+
+.img-container img {
+  height: 9rem;
+  margin-bottom: 5px;
+}
+
+.buttons button {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.motto-container p {
+  font-size: 20px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.transaction-container button {
+  width: 100%;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+.about-container button {
+  width: 80%;
+  border-radius: 50px;
+  border: none;
+}
