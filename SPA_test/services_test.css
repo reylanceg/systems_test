@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.main-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/background-1.jpg) no-repeat center/cover;
+  flex-grow: 1;
+}
+
+.logo-container img {
+  max-width: 25%;
+  padding: 10px;
+}
+
+.sidebar {
+  max-width: 350px;
+  display: none;
+}
+
+.title-container {
+  text-align: center;
+  color: rgb(201, 198, 198);
+}
+
+.motto {
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.card-container > p {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  color: rgb(201, 198, 198);
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  max-width: 500px;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 20px auto;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 180px;
+  height: 225px;
+  background-color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.details-container {
+  padding: 8px;
+}
+
+.service-title > p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.service-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.price-container {
+  font-size: 14px;
+  color: rgb(99, 99, 99);
+}
+
+.img-container img {
+  width: 100%;
+  min-height: 130px;
+  border-radius: 12px 12px 0 0;
+}
